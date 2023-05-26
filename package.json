@@ -1,0 +1,17 @@
+{
+  "name": "nft_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "suite": "^0.2.0",
+    "truffle": "^5.9.0"
+  }
+}

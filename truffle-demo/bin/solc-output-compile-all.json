@@ -1,0 +1,83 @@
+{
+    "contracts": {
+        "c:/Users/wf2023031001n/source/repos/NFT_project/NFT_project/truffle-demo/node_modules/openzeppelin-solidity/contracts/SampleToken/code.sol": {
+            "SampleToken": {
+                "abi": [],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820743a85599c6dea324d85c3cd915d3ca9a69a4966bcc646f7f05c7d68e0c1dad90029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x35 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 PUSH21 0x3A85599C6DEA324D85C3CD915D3CA9A69A4966BCC6 0x46 0xf7 CREATE 0x5c PUSH30 0x68E0C1DAD900290000000000000000000000000000000000000000000000 ",
+                        "sourceMap": "26:25:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:25:0;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052600080fd00a165627a7a72305820743a85599c6dea324d85c3cd915d3ca9a69a4966bcc646f7f05c7d68e0c1dad90029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 PUSH21 0x3A85599C6DEA324D85C3CD915D3CA9A69A4966BCC6 0x46 0xf7 CREATE 0x5c PUSH30 0x68E0C1DAD900290000000000000000000000000000000000000000000000 ",
+                        "sourceMap": "26:25:0:-;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "10600",
+                            "executionCost": "66",
+                            "totalCost": "10666"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.4.26+commit.4563c3fc\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/Users/wf2023031001n/source/repos/NFT_project/NFT_project/truffle-demo/node_modules/openzeppelin-solidity/contracts/SampleToken/code.sol\":\"SampleToken\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/wf2023031001n/source/repos/NFT_project/NFT_project/truffle-demo/node_modules/openzeppelin-solidity/contracts/SampleToken/code.sol\":{\"keccak256\":\"0x2e6373a82a52eac62df44ba1050fb1457067e5b4c97375a6a8aee42f3681b89c\",\"urls\":[\"bzzr://7290f5a1ccef79863e90d9dd771b6d4453d58d964474601543442e1881c47214\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "c:/Users/wf2023031001n/source/repos/NFT_project/NFT_project/truffle-demo/node_modules/openzeppelin-solidity/contracts/SampleToken/code.sol": {
+            "ast": {
+                "absolutePath": "c:/Users/wf2023031001n/source/repos/NFT_project/NFT_project/truffle-demo/node_modules/openzeppelin-solidity/contracts/SampleToken/code.sol",
+                "exportedSymbols": {
+                    "SampleToken": [
+                        2
+                    ]
+                },
+                "id": 3,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.4",
+                            ".24"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:24:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 2,
+                        "linearizedBaseContracts": [
+                            2
+                        ],
+                        "name": "SampleToken",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [],
+                        "scope": 3,
+                        "src": "26:25:0"
+                    }
+                ],
+                "src": "0:51:0"
+            },
+            "id": 0
+        }
+    }
+}
